@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Ropa | Inscripción</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">Tienda de Moda</span>
+      <h1>Viste tu estilo con nuestra colección</h1>
+      <p>Descubre prendas modernas, cómodas y únicas. Regístrate para recibir novedades, descuentos especiales y acceso exclusivo.</p>
+      <a href="#registro" class="btn btn-primary">Inscribirme ahora</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5d9?auto=format&fit=crop&w=900&q=80" alt="Ropa de moda" />
+    </div>
+  </header>
+
+  <main>
+    <section class="features">
+      <article>
+        <h2>Calidad Premium</h2>
+        <p>Prendas diseñadas para durar, con tejidos suaves y acabados de primera.</p>
+      </article>
+      <article>
+        <h2>Envío rápido</h2>
+        <p>Recibe tus compras con envío exprés a todo el país.</p>
+      </article>
+      <article>
+        <h2>Promociones exclusivas</h2>
+        <p>Descuentos especiales solo para quienes se registren en la tienda.</p>
+      </article>
+    </section>
+
+    <section class="signup" id="registro">
+      <div class="signup-card">
+        <h2>Formulario de inscripción</h2>
+        <p>Regístrate para recibir ofertas y novedades en ropa y accesorios.</p>
+        <form action="#" method="post">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="(123) 456-7890" />
+
+          <label for="talla">Talla favorita</label>
+          <select id="talla" name="talla">
+            <option value="">Selecciona una talla</option>
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+
+          <label for="mensaje">Comentario</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué buscas en tu próxima prenda?"></textarea>
+
+          <button type="submit" class="btn btn-secondary">Enviar inscripción</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Tienda de Ropa. Diseña tu estilo, vive tu moda.</p>
+  </footer>
+</body>
+</html>
